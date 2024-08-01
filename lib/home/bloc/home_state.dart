@@ -9,6 +9,3 @@ class HomeInitial extends HomeState {
   HomeInitial({this.button = false});
 }
 
-class LikeButtonActionState extends HomeInitial {
-  LikeButtonActionState() : super(button: false);
-}
